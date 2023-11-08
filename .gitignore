@@ -1,0 +1,29 @@
+# Ignore all not-necessary files in the directory
+data/*
+old_code/*
+scripts/*
+test.py
+
+.DS_Store
+eval_data/.DS_Store
+eval_data/**/.DS_Store
+
+eval_data/old_annotations
+eval_data/MTCFeatures/
+eval_data/**/combined_graphs
+
+ES-1943-SA-ASF-123.mei
+phrases.py
+Database/
+
+MelodicOccurrences
+mertheens.py
+
+# Ignore all python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pyc
+.pyo
+.pyd
+stderr.txt
